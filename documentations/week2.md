@@ -2,24 +2,21 @@
 
 ## Power BI (Power Query)
 
-- Loaded customer call dataset into Power BI  
-- Reviewed customer-related fields (names, phone numbers, addresses, flags)  
+- Imported customer call dataset into Power BI  
+- Focused on **data quality issues** in raw customer data  
 - Removed unnecessary and non-analytical columns  
-- Standardized column names for clarity and consistency  
+- Renamed columns for clarity and business readability  
 - Handled missing and invalid values (N/a, blanks → null)  
 - Cleaned text fields using **Trim** and **Clean**  
 - Standardized categorical values (Yes/No, Y/N)  
-- Corrected data types for numeric and text columns  
-- Removed duplicate customer records using unique IDs  
-- Applied basic conditional filtering for valid contact records  
+- Corrected data types for IDs, text, and flags  
+- Removed duplicate customer records using unique identifiers  
+- Applied basic business rules for valid contact data  
 
 ## Python (Jupyter Notebook)
 
-- Loaded the dataset using **Pandas** in Jupyter Notebook  
-- Inspected data using `info()` and `isnull()`  
-- Revalidated missing values based on business relevance  
-- Removed redundant and identifier columns programmatically  
-- Converted data types explicitly to avoid calculation issues  
-- Standardized categorical values across records  
-- Validated numeric columns for accuracy  
-- Exported the cleaned dataset for further analysis and reporting
+- Loaded cleaned data using **Pandas**  
+- Performed validation checks using `info()` and `isnull()`  
+- Ensured consistency between Power BI and Python-cleaned data  
+- Converted data types programmatically  
+- Exported the finalized clean dataset for analysis
