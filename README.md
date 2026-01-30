@@ -20,7 +20,6 @@ The dataset includes key attributes such as disaster type, affected state, decla
 - Disaster declarations show variation across years, indicating changing trends over time  
 
 ## Recommendations
-- Focus disaster preparedness and resource planning on highly affected states  
 - Use historical disaster trends to improve response planning  
 - Strengthen monitoring of frequently occurring disaster types  
 
