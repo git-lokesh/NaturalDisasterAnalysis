@@ -1,4 +1,4 @@
-# Week 6: DAX Basics & Measures – Power BI
+# Week 6: DAX Basics & Measures in Power BI
 
 ## DAX Fundamentals
 
